@@ -28,9 +28,12 @@ $ source .\.venv\bin\activate
 $ python -m pip install --upgrade pip
 ```
 
-4.- Intalar los requerimientos
+4.- Intalar FastAPI
 
 ```ps
+$ pip install fastapi uvicorn
+```
+<!--```ps
 $ pip install -r .\requirements.txt
 ```
 
@@ -38,8 +41,7 @@ Nota: cada vez que se instale una nueva libreria en el proyecto es obligatorio e
 
 ```ps
 $ pip freeze > .\requirements.txt
-```
-
+``` -->
 5.- Crear archivo de variables de entorno
 
 En este archivo van las credenciales sencibles como el host y contraseña de la base de datos
