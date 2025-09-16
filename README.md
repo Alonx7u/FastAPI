@@ -61,5 +61,3 @@ Nota: si necesita que el servidor sea accesible desde cualquier usuario dentro d
 ```ps
 $ uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 ```
-
-```
